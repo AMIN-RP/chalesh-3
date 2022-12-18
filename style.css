@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family: iranyekan;
+}
+
+*{
+    text-decoration: none!important;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 22px;
+    color: #FF4747;
+}
+
+.card{
+    border-radius: 12px;
+}
+
+
+.img-class{
+    border-radius: 14px;
+}
+
+.name{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.price{
+    font-weight:400;
+    font-size: 14px;
+    color: #FF0004;
+}
+
+.star{
+    color: orange;
+}
+
+.card{
+    transition: 0.2s;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3)!important;
+    transition: 0.2s;
+}
+
